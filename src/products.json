@@ -1,0 +1,47 @@
+[
+  { 
+    "id": "0", 
+    "name": "Suero Amarillo",
+    "price": "500",
+    "description" : "Nuestro serum está hecho para la salud de tu piel. Tener un cutis perfecto ¡Ahora es posible!",
+    "image": "../images/producto1.jpg",
+    "stock": 5,
+    "category": "sueros"
+  },
+  { 
+    "id": "1",
+    "name": "Gotas rejuvenecimiento", 
+    "price": 800,
+    "description" : "Con nuestras gotas de muestra pura ¡Podrás rejuvencer!",
+    "image": "../images/producto2.jpg",
+    "stock": 2,
+    "category": "Gotas"
+  },
+  { 
+    "id": "2", 
+    "name": "Kit tres pasos",
+    "price": 5500,
+    "description": "¡Tambien puedes llevar nuestro kit completo! Juventud, salud y una mente despejada ¡Pruebalo!",
+    "image": "../images/producto3.jpg",
+    "stock": 8,
+    "category": "Gotas"
+  },
+  { 
+    "id": "3", 
+    "name": "Aquaprom", 
+    "price": 3500,
+    "description": "Probá nuestro más reciente serum ¡Aquaprom! podrás limpiar tu cuerpo de toxinas.",
+    "image": "../images/producto4.jpg",
+    "stock": 4,
+    "category": "Cremas"
+  },
+  { 
+    "id": "4", 
+    "name": "Spray Curativo",
+    "price": 13500,
+    "description": "Nuestro mejor producto ahora en un nuevo empaque ¡El spray de primeros auxilios!",
+    "image": "../images/producto5.jpg",
+    "stock": 5,
+    "category": "Sueros"
+  }
+]
