@@ -1,13 +1,12 @@
 import Item from './Item'
 import { Container } from '@chakra-ui/react'
-import Products from '../products.json'
 
-const ItemList = () => {
-  const list = Products.products
+const ItemList = ({list}) => {
+  const items = Array.isArray(list) ? list : []
   return (
     <>
     <Container maxW='max-content' alignItems='center'>
-      {list.map((product) => (
+      {items.map((product) => (
         <Item
           key={product.id}
           id={product.id}

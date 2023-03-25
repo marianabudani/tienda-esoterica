@@ -1,4 +1,5 @@
 import { Card, Heading, CardBody, Text, CardFooter, Button, Center, Stack, Image, Divider } from '@chakra-ui/react'
+import { Link } from 'react'
 
 const Item = ({ id, name, image, price, stock, category }) => {
   return (
@@ -18,9 +19,9 @@ const Item = ({ id, name, image, price, stock, category }) => {
             <Divider />
             <CardFooter className='card-footer'>
               <Center className='btn-center'>
-                <Button variant="solid" colorScheme="green">
+                
                   <Link to={`/item/${id}`}>Details</Link>
-                </Button>
+                
               </Center>
             </CardFooter>
           </Card>

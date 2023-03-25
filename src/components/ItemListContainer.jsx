@@ -23,7 +23,6 @@ const ItemListContainer = () => {
         reject(new Error("Products not found"))
       }
       resolve(Products)
-      console.log('asdasd', Products)
     })
   }
   useEffect(()=>{
